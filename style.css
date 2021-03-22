@@ -1,0 +1,37 @@
+#main-container {
+    margin: 50px auto auto auto;
+    background-color:lightgreen;
+    width: 50%;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#table-container {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto; 
+    justify-items: center;
+    align-content: center;
+}
+
+#buttons {
+    width: 30%;
+    margin: 20px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: #555555;
+    color: white;
+    cursor: pointer;
+    font-size:x-large;
+}
